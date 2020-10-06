@@ -3,7 +3,7 @@
   angular.module("myapp" , [])
   .controller("maincontroller" , doit);
   function doit($scope){
-    $scope.string = "My string";
+    $scope.string;
     $scope.update_val = function (){
         $scope.myarray = $scope.string.split(",");
         $scope.result_ar = []
